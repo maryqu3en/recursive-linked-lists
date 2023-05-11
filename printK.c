@@ -8,7 +8,7 @@ typedef struct Node {
     struct Node *next;
 }node;
 
-//failed 
+
 
 void printKthFromEnd(node *head, int k) {
     static int b = k;
